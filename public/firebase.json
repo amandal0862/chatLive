@@ -4,6 +4,7 @@
   },
   "hosting": {
     "public": "public",
+    "site": "chatlive-42101",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -17,3 +18,4 @@
     ]
   }
 }
+

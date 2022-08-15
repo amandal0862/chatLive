@@ -14,6 +14,26 @@
     <button id="post">Post</button><br>
     <div id="results"></div>
     <hr/>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyAkK5JAs3BEcwnivKsVIGisJNQ3nRiwyiQ",
+          authDomain: "chatlive-42101.firebaseapp.com",
+          databaseURL: "https://chatlive-42101-default-rtdb.asia-southeast1.firebasedatabase.app",
+          projectId: "chatlive-42101",
+          storageBucket: "chatlive-42101.appspot.com",
+          messagingSenderId: "891365651275",
+          appId: "1:891365651275:web:887563b5c925e068b16ece"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+      </script>
     <script src="chat.js"></script>
 </body>
 </html>
